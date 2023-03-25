@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      label 'linux'
+      label 'docker'
       image 'busybox'
     }
   }
