@@ -10,6 +10,7 @@ pipeline {
       steps {
         sh './script.sh'
         sh 'echo test'
+        sh 'echo premerge'
       }
     }
   }
