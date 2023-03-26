@@ -2,7 +2,7 @@ pipeline {
   agent {
     docker {
       label 'docker'
-      image: praqma/network-multitool
+      image 'praqma/network-multitool'
     }
   }
   stages {
