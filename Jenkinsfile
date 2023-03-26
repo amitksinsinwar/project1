@@ -1,5 +1,7 @@
 pipeline {
-  agent any
+  agent docker {
+    label 'docker'
+  }
   stages {
     stage('Execute') {
       steps {
