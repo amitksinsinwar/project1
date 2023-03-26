@@ -1,8 +1,8 @@
 pipeline {
   agent {
-    docker {
-      label 'docker'
-      image 'praqma/network-multitool'
+    any {
+      label 'linux'
+
     }
   }
   stages {
